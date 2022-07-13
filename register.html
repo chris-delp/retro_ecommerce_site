@@ -24,7 +24,7 @@
                 <a class="nav-link" href="products.html">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="login.html">User Login</a>
+                <a class="nav-link" href="login.html">User Login</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
@@ -33,14 +33,23 @@
           </div>
         </div>
       </nav>
-
+     
       <div class="container">
-      <h2>Returning User Login</h2>
+        <h2>New User Registration</h2>
+      </div>
 
-      </div.container>
       <div class="container">
       <form>
-          
+        <div class="row">
+          <div class="col">
+            <label for="firstName">First Name</label>
+              <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp" placeholder="First name" required>
+          </div>
+          <div class="col">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp" placeholder="Last name" required>
+          </div>
+        </div>        
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
@@ -52,7 +61,7 @@
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
-        <div>Not yet registered?  Click <a href="register.html">here!</a></div>
+        
       </form>
       </div>
       
